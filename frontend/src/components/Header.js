@@ -9,8 +9,9 @@ const navbarStyle = {
 const Header = ({ title }) => {
   return (
     <Navbar style={navbarStyle} variant="light">
-      <Container className="justify-content-center"></Container>
-      <Logo alt={title} style={{ maxWidth: '12rem', maxHeight: '2rem' }} />
+      <Container className="justify-content-center">
+        <Logo alt={title} style={{ maxWidth: '12rem', maxHeight: '2rem' }} />
+      </Container>
     </Navbar>
   );
 };
